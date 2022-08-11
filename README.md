@@ -6,6 +6,11 @@ Project of a Landing Page of the Platzi course (async JavaScript), where I pract
 - JavaScript
 - Tailwind
 
+### I learned
+- Async with JavaScript
+- Tailwind
+- Deploy with npm gh-pages
+
 ## Installation
 Clone the repo:
 ```
