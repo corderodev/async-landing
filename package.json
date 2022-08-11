@@ -1,0 +1,26 @@
+{
+  "name": "async-landing",
+  "version": "1.0.0",
+  "description": "async landing page for platzi course: async with js",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnlambb/async-landing.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Tailwind"
+  ],
+  "author": "Daniel Cordero @dnlambb (dnlambb.writeme.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dnlambb/async-landing/issues"
+  },
+  "homepage": "https://github.com/dnlambb/async-landing#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
