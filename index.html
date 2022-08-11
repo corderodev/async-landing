@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Async Landing</title>
+  <meta name="description" content="Landing page built by dnlambb for async js course">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="./assets/main.js"></script>
+</head>
+<body class="bg-gray-800">
+  <header class="w-full py-5 z-10">
+    <nav class="w-full justify-evenly sm:justify-start sm:pl-32 bg-gray-800 text-white text-xl flex gap-x-20">
+      <a class="hover:text-yellow-400" href="#videos">Videos</a>
+      <a class="hover:text-yellow-400" href="#social">Social</a>
+    </nav>
+  </header>
+  <main class="bg-gray-800">
+    <section id="about" class="flex flex-wrap sm:flex-nowrap">
+      <div class="h-min w-max py-10 pl-6 sm:m-auto md:p-5 text-white flex flex-col gap-x-5 m-auto">
+        <h1 class="drop-shadow-2xl text-violet-600 font-bold text-5xl break-words">Auron <span class="text-yellow-400">@AuronPlay</span></h1>
+        <p class="text-white text-2xl font-semibold pt-5 border-solid border-b-1 border-yellow-500">Spain streamer</p>
+      </div>
+      <picture class="w-auto sm:w-1/2 px-5 lg:px-0 lg:p-0 h-min m-auto">
+        <img class="rounded-full m-auto border-solid border-2 border-yellow-500" src="./assets/img/profile-auron.webp" alt="image auron play">
+      </picture>
+    </section>
+    <section id="videos" class="py-10 bg-gray-800">
+      <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8" id="containerContent">
+        <h2 class="text-2xl font-semibold tracking-tight text-white text-center" id="titleVideos">Last YouTube Videos</h2>
+        <div class="mt-10 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8 " id="content">
+          <!-- content videos -->
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="flex flex-col gap-y-10 py-10">
+    <h2 class="text-center text-yellow-400 font-semibold text-2xl">Social</h2>
+    <div class="flex justify-center gap-x-20">
+      <a href="https://www.youtube.com/c/auron">
+        <img class="w-12 sm:w-20" src="./assets/img/youtube.svg" alt="Youtube">
+      </a>
+      <a href="https://www.twitch.tv/auronplay">
+        <img class="w-12 sm:w-20" src="./assets/img/twitch.svg" alt="Twitch">
+      </a>
+    </div>
+    <hr class="w-1/2 m-auto">
+    <p class="text-white text-center">Built by @dnlambb</p>
+  </footer>
+</body>
+</html>
