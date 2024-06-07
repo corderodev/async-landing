@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/dnlambb/async-landing#readme",
   "devDependencies": {
-    "gh-pages": "4.0.0"
+    "gh-pages": "5.0.0"
   }
 }
